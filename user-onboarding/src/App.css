@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  font-size: 1.6rem;
+  text-shadow: 1px -1px 2px #166;
+  text-shadow: -1px 1px 2px #166;
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+  color:white;
+  background-color: #2a5ce6;
+  border: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-image: none;
+  background-color: #113db6;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+  background-image: none;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+  text-shadow: none;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.error {
+  font-size: 1.3rem;
+  color: red;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+div.bordered {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 60%;
 }

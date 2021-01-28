@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Form from './Form';
+import React from 'react';
+import Form from './components/Form';
 
-function App() {
+
+export default function App( {  } ) {
   return (
     <div className="App">
+      <h1>New User Onboarding</h1>
       <Form />
     </div>
   );
 }
-
-export default App;
