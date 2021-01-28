@@ -1,0 +1,3 @@
+cd into user-onboarding
+
+I cloned the repo instead of making a project from scratch, so there is a second user-onboarding folder you may need to go into.
